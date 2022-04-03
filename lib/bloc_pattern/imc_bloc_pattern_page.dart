@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:modulo13_gerencia_estado/bloc_pattern/imc_bloc_pattern_controller.dart';
 import 'package:modulo13_gerencia_estado/bloc_pattern/imc_state.dart';
-import 'package:modulo13_gerencia_estado/change_notifier/imc_controller.dart';
+import 'package:modulo13_gerencia_estado/change_notifier/imc_change_notifier_controller.dart';
 import 'package:modulo13_gerencia_estado/widgets/imc_gauge.dart';
 
 class ImcBlocPatternPage extends StatefulWidget {

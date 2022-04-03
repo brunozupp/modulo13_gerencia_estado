@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:currency_text_input_formatter/currency_text_input_formatter.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:modulo13_gerencia_estado/change_notifier/imc_controller.dart';
+import 'package:modulo13_gerencia_estado/change_notifier/imc_change_notifier_controller.dart';
 import 'package:modulo13_gerencia_estado/widgets/imc_gauge.dart';
 
 class ImcChangeNotifierPage extends StatefulWidget {
@@ -19,7 +19,7 @@ class _ImcChangeNotifierPageState extends State<ImcChangeNotifierPage> {
   final alturaEC = TextEditingController();
   final formKey = GlobalKey<FormState>();
 
-  final controller = ImcController();
+  final controller = ImcChangeNotifierController();
 
   @override
   void dispose() {

@@ -2,7 +2,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class ImcController extends ChangeNotifier {
+class ImcChangeNotifierController extends ChangeNotifier {
 
   var imc = 0.0;
 
