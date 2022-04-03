@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:modulo13_gerencia_estado/bloc_pattern/imc_bloc_pattern_page.dart';
+import 'package:modulo13_gerencia_estado/bloc_pattern_mine/imc_bloc_pattern_page_mine.dart';
 import 'package:modulo13_gerencia_estado/change_notifier/imc_change_notifier_page.dart';
 import 'package:modulo13_gerencia_estado/set_state/imc_set_state_page.dart';
 import 'package:modulo13_gerencia_estado/value_notifier/imc_value_notifier_page.dart';
@@ -59,6 +60,18 @@ class HomePage extends StatelessWidget {
               }, 
               child: const Text(
                 "StreamBuilder (Bloc Pattern)",
+              ),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+
+            ElevatedButton(
+              onPressed: () {
+                _goToPage(context, const ImcBlocPatternPageMine());
+              }, 
+              child: const Text(
+                "StreamBuilder (Bloc Pattern) Mine",
               ),
             ),
             const SizedBox(
