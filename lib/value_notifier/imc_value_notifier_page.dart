@@ -38,6 +38,8 @@ class _ImcValueNotifierPageState extends State<ImcValueNotifierPage> {
     pesoEC.dispose();
     alturaEC.dispose();
 
+    imc.dispose();
+
     super.dispose();
   }
 

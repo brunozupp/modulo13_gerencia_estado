@@ -21,7 +21,7 @@ class ImcBlocPatternControllerMine {
 
       await Future.delayed(const Duration(seconds: 1));
 
-      //throw Exception();
+      throw Exception();
 
       _imcStreamController.add(ImcStateModelMine(imc: peso / pow(altura, 2)));
     } catch(e) {
